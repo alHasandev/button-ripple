@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- assets link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="button-ripple.css" />
+
+    <title>Button -Ripple Effect</title>
+  </head>
+  <body>
+    <h1 class="text-center">Button Ripples Effect</h1>
+    <div class="container flex space-between px-md py-sm">
+      <button class="btn btn--primary" ripple>primary</button>
+      <button class="btn btn--success" ripple>success</button>
+      <button class="btn btn--outline" ripple ripple-color="#8e44ad">
+        outline
+      </button>
+      <button class="btn btn--warning" ripple ripple-radius="2rem">
+        warning
+      </button>
+      <button class="btn btn--danger" ripple>danger</button>
+    </div>
+
+    <!-- libraries & scripts -->
+    <script src="debounce.js"></script>
+    <script src="button-ripple.js"></script>
+  </body>
+</html>
