@@ -22,14 +22,14 @@ function addRipple(e) {
   rippleContainer.appendChild(rippler);
   rippler.setAttribute("style", style);
 
-  console.log(rippleContainer);
+  // console.log(rippleContainer);
 }
 
 function cleanUp(e) {
   const rippleContainer = this.querySelector(".ripple--container");
   while (rippleContainer.firstChild) {
     rippleContainer.removeChild(rippleContainer.firstChild);
-    console.log("remove first child");
+    // console.log("remove first child");
   }
 }
 
