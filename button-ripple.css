@@ -1,4 +1,6 @@
 [ripple] {
+  --ripple-color: #ffffff;
+  --ripple-radius: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -13,10 +15,10 @@
 
 [ripple] .ripple--container span {
   transform: scale(0);
-  border-radius: 100%;
+  border-radius: var(--ripple-radius);
   position: absolute;
   opacity: 0.5;
-  background-color: #ffffff;
+  background-color: var(--ripple-color);
   animation: ripple 1000ms;
 }
 
