@@ -1,7 +1,5 @@
 const ripples = document.querySelectorAll("[ripple]");
 
-dangerBtn.addEventListener("click", clickDanger);
-
 function addRipple(e) {
   const rippleContainer = this.querySelector(".ripple--container");
 
